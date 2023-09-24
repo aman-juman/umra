@@ -1,0 +1,101 @@
+tabs:
+    fields:
+        start:
+            label: Начало
+            mode: date
+            span: full
+            type: datepicker
+            comment: 'Дата начало тура'
+            tab: Сроки
+        end:
+            label: Окончание
+            mode: date
+            span: full
+            type: datepicker
+            comment: 'Дата окончание тура'
+            tab: Сроки
+        duration:
+            label: 'Длительность тура'
+            span: auto
+            type: number
+            tab: Сроки
+        hotel:
+            label: Отель
+            span: full
+            type: text
+            tab: Отель
+        star:
+            label: 'Количество звезд'
+            span: auto
+            type: number
+            tab: Отель
+        meal:
+            label: Питание
+            span: auto
+            type: text
+            comment: 'Краткое описание питании'
+            tab: Отель
+        price:
+            label: Цена
+            span: auto
+            type: text
+            tab: Отель
+        discount:
+            label: Скидка
+            span: auto
+            type: text
+            comment: 'Если нет оставьте пустым'
+            tab: Отель
+        city:
+            label: Город
+            span: auto
+            type: text
+            tab: Местоположение
+        area:
+            label: Местоположение
+            span: auto
+            type: text
+            tab: Местоположение
+        distance:
+            label: 'Дальность от мечети или Каабы'
+            span: auto
+            type: text
+            tab: Местоположение
+        sim:
+            label: 'Сим карта'
+            span: full
+            type: text
+            tab: Дополнительно
+        flight_steps:
+            label: Рейс
+            size: small
+            span: full
+            type: textarea
+            comment: 'Укажите пункты полета'
+            tab: Дополнительно
+        gallery:
+            label: 'Галерея тура'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload
+            tab: Галерея
+fields:
+    title:
+        label: Название
+        span: full
+        type: text
+        comment: 'Название пакета'
+    poster:
+        label: Постер
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+        comment: 'Изображение тура'

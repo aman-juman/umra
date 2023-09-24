@@ -1,0 +1,53 @@
+plugin:
+    name: 'ustudio.umra::lang.plugin.name'
+    description: 'ustudio.umra::lang.plugin.description'
+    author: ustudio
+    icon: oc-icon-support
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Слайдеры
+        url: /
+        icon: icon-area-chart
+        sideMenu:
+            side-menu-item:
+                label: шапка
+                url: ustudio/umra/carousel1/update/1
+                icon: icon-stack-overflow
+    main-menu-item1:
+        label: Компания
+        url: /
+        icon: icon-bank
+        sideMenu:
+            side-menu-item2:
+                label: 'О компании'
+                url: ustudio/umra/company
+                icon: icon-bank
+            side-menu-item:
+                label: Галлерея
+                url: ustudio/umra/gallery
+                icon: icon-slack
+            side-menu-item3:
+                label: Пакеты
+                url: ustudio/umra/product
+                icon: icon-stack-exchange
+            side-menu-item4:
+                label: Факты
+                url: ustudio/umra/fact
+                icon: icon-sitemap
+            side-menu-item5:
+                label: Контакты
+                url: ustudio/umra/contact
+                icon: icon-whatsapp
+            side-menu-item6:
+                label: Команда
+                url: ustudio/umra/team
+                icon: icon-users
+            side-menu-item7:
+                label: Политика
+                url: ustudio/umra/privacy
+                icon: icon-street-view
+    main-menu-item2:
+        label: Посты
+        url: ustudio/umra/post
+        icon: icon-archive

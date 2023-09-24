@@ -1,0 +1,9 @@
+columns:
+    title:
+        label: Заголовок
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Дата создание'
+        type: date

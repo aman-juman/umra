@@ -1,0 +1,10 @@
+name: Privacy
+form: $/ustudio/umra/models/privacy/fields.yaml
+modelClass: Ustudio\Umra\Models\Privacy
+defaultRedirect: ustudio/umra/privacy
+create:
+    redirect: 'ustudio/umra/privacy/update/:id'
+    redirectClose: ustudio/umra/privacy
+update:
+    redirect: ustudio/umra/privacy
+    redirectClose: ustudio/umra/privacy

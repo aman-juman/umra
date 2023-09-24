@@ -1,0 +1,58 @@
+tabs:
+    fields:
+        link_text_first:
+            label: 'Текст 1'
+            span: full
+            type: text
+            comment: 'Текст для ссылок'
+            tab: 'Тексты для ссылок'
+        link_text_second:
+            label: 'Текст 2'
+            span: full
+            type: text
+            comment: 'Текст для ссылок'
+            tab: 'Тексты для ссылок'
+        address:
+            label: Адрес
+            span: auto
+            type: text
+            comment: 'Полный адрес'
+            tab: Адрес
+        gis_link:
+            label: 2Gis
+            span: auto
+            type: text
+            comment: 'Ссылка на карту'
+            tab: Адрес
+        email:
+            label: 'Эл. почта'
+            span: auto
+            type: text
+            tab: Адрес
+fields:
+    phone:
+        label: Телефон
+        span: auto
+        type: text
+        comment: 'Формат +7(7хх) ххх-хх-хх'
+    whatsapp:
+        label: Whatsapp
+        span: auto
+        type: text
+        comment: 'Форматы https://wa.me/77ххххххххх'
+    telegram:
+        label: Телеграм
+        span: auto
+        type: text
+    facebook:
+        label: Facebook
+        span: auto
+        type: text
+    instagram:
+        label: Instagram
+        span: auto
+        type: text
+    youtube:
+        label: Youtube
+        span: auto
+        type: text

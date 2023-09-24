@@ -1,0 +1,100 @@
+<meta charset="utf-8" />
+<title>
+    Turan Group - {{ this.page.meta_title ?: placeholder('pageTitle') }}
+</title>
+<meta name="description" content="{{ this.page.meta_description }}" />
+<meta name="title" content="{{ this.page.meta_title }}" />
+<meta name="author" content="Ustudio.kz" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Ustudio" />
+{% meta %}
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="icon" />
+
+<!-- Google Web Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet"
+/>
+
+<!-- Icon Font Stylesheet -->
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    rel="stylesheet"
+/>
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    rel="stylesheet"
+/>
+
+<!-- Libraries Stylesheet -->
+<link
+    href="{{'assets/lib/animate/animate.min.css' | theme }}"
+    rel="stylesheet"
+/>
+<link
+    href="{{'assets/lib/owlcarousel/assets/owl.carousel.min.css' | theme }}"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="{{'assets/css/lightgallery.min.css' | theme }}" />
+
+<script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="{{'assets/js/lightgallery.min.js' | theme }}"></script>
+<script src="{{'assets/js/lightgallery-all.min.js' | theme }}"></script>
+<script src="{{'assets/js/script.js' | theme }}"></script>
+
+<!-- Customized Bootstrap Stylesheet -->
+<link href="{{'assets/css/bootstrap.min.css' | theme }}" rel="stylesheet" />
+
+<!-- Template Stylesheet -->
+<link href="{{'assets/css/style.css' | theme }}" rel="stylesheet" />
+
+<!-- <link
+    rel="icon"
+    type="image/png"
+    href="{{ 'assets/images/october.png'|theme }}"
+/>
+<link
+    href="{{ 'assets/vendor/bootstrap/bootstrap.css'|theme }}"
+    rel="stylesheet"
+/>
+<link
+    href="{{ 'assets/vendor/bootstrap-icons/bootstrap-icons.css'|theme }}"
+    rel="stylesheet"
+/>
+<link
+    href="{{ 'assets/vendor/slick-carousel/slick.css'|theme }}"
+    rel="stylesheet"
+/>
+<link
+    href="{{ 'assets/vendor/slick-carousel/slick-theme.css'|theme }}"
+    rel="stylesheet"
+/>
+<link
+    href="{{ 'assets/vendor/photoswipe/photoswipe.css'|theme }}"
+    rel="stylesheet"
+/>
+<link
+    href="{{ 'assets/vendor/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css'|theme }}"
+    rel="stylesheet"
+/>
+<link href="{{ 'assets/less/theme.less'|theme }}" rel="stylesheet" /> -->
+{% styles %}
+<script src="{{ 'assets/vendor/jquery.min.js'|theme }}"></script>
+<script src="{{ 'assets/vendor/bootstrap/bootstrap.min.js'|theme }}"></script>
+<script src="{{ 'assets/vendor/codeblocks/codeblocks.min.js'|theme }}"></script>
+<script src="{{ 'assets/vendor/slick-carousel/slick.min.js'|theme }}"></script>
+<script src="{{ 'assets/js/app.js'|theme }}"></script>
+{% framework extras turbo %} {% scripts %}
+
+<script type="module">
+    import PhotoSwipeLightbox from "{{ 'assets/vendor/photoswipe/photoswipe-lightbox.esm.min.js'|theme }}";
+    import PhotoSwipeModule from "{{ 'assets/vendor/photoswipe/photoswipe.esm.min.js'|theme }}";
+    import PhotoSwipeDynamicCaption from "{{ 'assets/vendor/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.esm.js'|theme }}";
+
+    window.PhotoSwipeLightbox = PhotoSwipeLightbox;
+    window.PhotoSwipeModule = PhotoSwipeModule;
+    window.PhotoSwipeDynamicCaption = PhotoSwipeDynamicCaption;
+</script>

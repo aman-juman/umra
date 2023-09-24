@@ -1,0 +1,10 @@
+name: Product
+form: $/ustudio/umra/models/product/fields.yaml
+modelClass: Ustudio\Umra\Models\Product
+defaultRedirect: ustudio/umra/product
+create:
+    redirect: 'ustudio/umra/product/update/:id'
+    redirectClose: ustudio/umra/product
+update:
+    redirect: ustudio/umra/product
+    redirectClose: ustudio/umra/product

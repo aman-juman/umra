@@ -1,0 +1,14 @@
+columns:
+    position:
+        label: Позиция
+        type: number
+        searchable: true
+        sortable: true
+        width: '50px'
+    title:
+        label: Заголовок
+        type: text
+        searchable: true
+        sortable: true
+        width: '150px'
+

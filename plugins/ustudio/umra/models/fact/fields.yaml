@@ -1,0 +1,23 @@
+fields:
+    title:
+        label: Заголовок
+        span: auto
+        type: text
+    position:
+        label: Позиция
+        span: auto
+        type: number
+    text:
+        label: Описание
+        span: full
+        size: large
+        type: richeditor
+    poster:
+        label: Постер
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

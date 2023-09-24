@@ -1,0 +1,10 @@
+name: Contact
+modelClass: Ustudio\Umra\Models\Contact
+form: $/ustudio/umra/models/contact/fields.yaml
+defaultRedirect: ustudio/umra/contact
+create:
+    redirect: ustudio/umra/contact
+    redirectClose: ustudio/umra/contact
+update:
+    redirect: ustudio/umra/contacts
+    redirectClose: ustudio/umra/contact

@@ -1,0 +1,10 @@
+name: Team
+form: $/ustudio/umra/models/team/fields.yaml
+modelClass: Ustudio\Umra\Models\Team
+defaultRedirect: ustudio/umra/team
+create:
+    redirect: 'ustudio/umra/team/update/:id'
+    redirectClose: ustudio/umra/team
+update:
+    redirect: ustudio/umra/team
+    redirectClose: ustudio/umra/team

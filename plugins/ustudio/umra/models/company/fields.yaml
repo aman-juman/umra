@@ -1,0 +1,50 @@
+tabs:
+    fields:
+        experience:
+            label: Опыт
+            span: auto
+            type: text
+            tab: Опыт
+        experience_title:
+            label: Заголовок
+            span: auto
+            type: text
+            tab: Опыт
+        experience_sub_title:
+            label: 'Под заголовок'
+            span: auto
+            type: text
+            tab: Опыт
+        poster:
+            label: Изоброжение
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Опыт
+secondaryTabs:
+    fields:
+        advantages:
+            label: Преимущества
+            size: large
+            span: auto
+            type: richeditor
+            comment: 'Нужно указать только 3 и пунктами'
+            tab: Преимущества
+fields:
+    title:
+        label: Название
+        span: auto
+        type: text
+    sub_title:
+        label: Слоган
+        span: auto
+        type: text
+    text:
+        label: Описание
+        size: large
+        span: auto
+        type: richeditor

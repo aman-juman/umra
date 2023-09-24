@@ -1,0 +1,10 @@
+name: Fact
+form: $/ustudio/umra/models/fact/fields.yaml
+modelClass: Ustudio\Umra\Models\Fact
+defaultRedirect: ustudio/umra/fact
+create:
+    redirect: 'ustudio/umra/fact/update/:id'
+    redirectClose: ustudio/umra/fact
+update:
+    redirect: ustudio/umra/fact
+    redirectClose: ustudio/umra/fact

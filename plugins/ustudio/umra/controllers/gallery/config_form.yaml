@@ -1,0 +1,11 @@
+name: Gallery
+modelClass: Ustudio\Umra\Models\Gallery
+form: $/ustudio/umra/models/gallery/fields.yaml
+defaultRedirect: ustudio/umra/gallery
+create:
+    redirect: 'ustudio/umra/gallery/update/:id'
+    redirectClose: ustudio/umra/gallery
+update:
+    redirect: ustudio/umra/gallery
+    redirectClose: ustudio/umra/gallery
+preview: {  }

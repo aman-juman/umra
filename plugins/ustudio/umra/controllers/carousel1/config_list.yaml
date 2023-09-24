@@ -1,0 +1,12 @@
+list: $/ustudio/umra/models/carousel1/columns.yaml
+modelClass: Ustudio\Umra\Models\Carousel1
+title: Carousel1
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ustudio/umra/carousel1/update/:id'

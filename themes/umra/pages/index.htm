@@ -1,0 +1,1346 @@
+title = "Главная" url = "/" layout = "default" meta_title = "Умра и Хадж" ==
+
+<!-- Spinner Start -->
+<div
+    id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+>
+    <div class="spinner-grow text-primary" role="status"></div>
+</div>
+<!-- Spinner End -->
+
+<!-- Topbar Start -->
+<div class="container-fluid bg-light p-0">
+    <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+            <div
+                class="h-100 d-inline-flex align-items-center border-start border-end px-3"
+            >
+                <a href="" class="m-2 text-secondary">
+                    <small class="fa fa-phone-alt"></small>
+                    <small>+7 701 202 27 77</small>
+                </a>
+                <a href="" class="m-2 text-secondary">
+                    <small class="fa fa-phone-alt"></small>
+                    <small>+7 707 900 74 10</small>
+                </a>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center border-end px-3">
+                <small class="far fa-envelope-open me-2"></small>
+                <small>info@umra-hajj.kz</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center border-end px-3">
+                <small class="far fa-clock me-2"></small>
+                <small>Служба поддержки 24/7</small>
+            </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn btn-square border-end" href=""
+                    ><i class="fab fa-whatsapp"></i
+                ></a>
+                <a class="btn btn-square border-end" href=""
+                    ><i class="fab fa-instagram"></i
+                ></a>
+                <a class="btn btn-square border-end" href=""
+                    ><i class="fab fa-youtube"></i
+                ></a>
+                <a class="btn btn-square border-end border-start" href=""
+                    ><i class="fab fa-facebook-f"></i
+                ></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<!-- Navbar Start -->
+<nav
+    class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
+>
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img style="width: 120px" src="img/logo.png" alt="logo" />
+    </a>
+    <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-3 py-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Главная</a>
+            <a href="about.html" class="nav-item nav-link">О нас</a>
+            <a href="service.html" class="nav-item nav-link">Услуги</a>
+            <div class="nav-item dropdown">
+                <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Хаджы</a
+                >
+                <div class="dropdown-menu bg-light m-0">
+                    <a href="feature.html" class="dropdown-item">Хадж 1</a>
+                    <a href="appointment.html" class="dropdown-item">Хадж 2</a>
+                    <a href="team.html" class="dropdown-item">Хадж 3</a>
+                    <a href="testimonial.html" class="dropdown-item"
+                        >Документы</a
+                    >
+                    <a href="404.html" class="dropdown-item">Паломнику</a>
+                </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Контакты</a>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Header Start -->
+<div class="container-fluid bg-dark p-0 mb-5">
+    <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                class="header-bg h-100 d-flex flex-column justify-content-center p-5"
+            >
+                <h1 class="display-4 text-light mb-5">Паломничество в МЕККУ</h1>
+                <div
+                    class="d-flex align-items-center pt-4 animated slideInDown"
+                >
+                    <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
+                        >Подробнее</a
+                    >
+                    <button
+                        type="button"
+                        class="btn-play"
+                        data-bs-toggle="modal"
+                        data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                        data-bs-target="#videoModal"
+                    >
+                        <span></span>
+                    </button>
+                    <h6 class="text-white m-0 ms-4 d-none d-sm-block">
+                        Смотреть видео
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <div class="owl-carousel header-carousel-add">
+                <div class="owl-carousel-item">
+                    <img
+                        class="img-fluid"
+                        src="img/header/carousel-1.jpeg"
+                        alt=""
+                    />
+                </div>
+                <div class="owl-carousel-item">
+                    <img
+                        class="img-fluid"
+                        src="img/header/carousel-2.jpeg"
+                        alt=""
+                    />
+                </div>
+                <div class="owl-carousel-item">
+                    <img
+                        class="img-fluid"
+                        src="img/header/carousel-3.jpeg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- Video Modal Start -->
+<div
+    class="modal modal-video fade"
+    id="videoModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+>
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                    Youtube Video
+                </h3>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        class="embed-responsive-item"
+                        src=""
+                        id="video"
+                        allowfullscreen
+                        allowscriptaccess="always"
+                        allow="autoplay"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Video Modal End -->
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div
+                    class="position-relative overflow-hidden ps-5 pt-5 h-100"
+                    style="min-height: 400px"
+                >
+                    <img
+                        class="position-absolute w-100 h-100"
+                        src="img/about.jpeg"
+                        alt=""
+                        style="object-fit: cover"
+                    />
+                    <div
+                        class="position-absolute top-0 start-0 bg-white pe-3 pb-3"
+                        style="width: 200px; height: 200px"
+                    >
+                        <div
+                            class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3"
+                        >
+                            <h1 class="text-white">20</h1>
+                            <h2 class="text-white">Лет</h2>
+                            <h5 class="text-white mb-0">на рынке</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="h-100">
+                    <div class="border-start border-5 border-primary ps-4 mb-5">
+                        <h6 class="text-body text-uppercase mb-2">О нас</h6>
+                        <h1 class="display-6 mb-0">Turan Group</h1>
+                        <h6 class="text-body text-uppercase mb-2">
+                            турагент по самым выгодным ценам на Умру и Хадж
+                        </h6>
+                    </div>
+                    <p>
+                        C 2003 года мы отправили в большой и малый хадж более 60
+                        000 казахстанских паломников.
+                    </p>
+                    <p class="mb-4">
+                        Мы гарантируем высокое качество организации
+                        паломнических поездок, а также предоставляем полный
+                        пакет услуг по самым выгодным ценам на рынке. Низкие
+                        цены на паломнические туры обеспечиваются благодаря
+                        нашим прямым контрактам с авиакомпаниями и отелями.
+                    </p>
+                    <div class="border-top mt-4 pt-4">
+                        <div class="row g-4">
+                            <div
+                                class="col-sm-4 d-flex wow fadeIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <i
+                                    class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                                ></i>
+                                <h6 class="mb-0">Прямые рейсы</h6>
+                            </div>
+                            <div
+                                class="col-sm-4 d-flex wow fadeIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <i
+                                    class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                                ></i>
+                                <h6 class="mb-0">Полное сопровождение</h6>
+                            </div>
+                            <div
+                                class="col-sm-4 d-flex wow fadeIn"
+                                data-wow-delay="0.5s"
+                            >
+                                <i
+                                    class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                                ></i>
+                                <h6 class="mb-0">Детальное обучение</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+<!-- Gallery Block Start -->
+<div class="container" style="margin-bottom: 200px">
+    <div class="row element-1">
+        <a
+            class="item col-lg-4 col-md-6 col-sm-12 my-2 image-container"
+            href="img/gallery/group-2.jpeg"
+        >
+            <img class="img-fluid" src="img/gallery/group-2.jpeg" alt="" />
+        </a>
+        <a
+            class="item col-lg-4 col-md-6 col-sm-12 my-2 image-container"
+            href="img/gallery/group-3.jpeg"
+        >
+            <img class="img-fluid" src="img/gallery/group-3.jpeg" alt="" />
+        </a>
+        <a
+            class="item col-lg-4 col-md-6 col-sm-12 my-2 image-container"
+            href="img/gallery/group-4.jpeg"
+        >
+            <img class="img-fluid" src="img/gallery/group-4.jpeg" alt="" />
+        </a>
+        <a
+            class="item col-lg-4 col-md-6 col-sm-12 my-2 image-container"
+            href="img/gallery/group-5.jpeg"
+        >
+            <img class="img-fluid" src="img/gallery/group-5.jpeg" alt="" />
+        </a>
+        <a
+            class="item col-lg-4 col-md-6 col-sm-12 my-2 image-container"
+            href="img/gallery/group-6.jpeg"
+        >
+            <img class="img-fluid" src="img/gallery/group-6.jpeg" alt="" />
+        </a>
+        <a
+            class="item col-lg-4 col-md-6 col-sm-12 my-2 image-container"
+            href="img/gallery/group-1.jpeg"
+        >
+            <img class="img-fluid" src="img/gallery/group-1.jpeg" alt="" />
+        </a>
+    </div>
+</div>
+<!-- Gallery Block End -->
+
+<!-- Product List Start -->
+<div class="bg-light">
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div
+                        class="text-center mx-auto mb-5 wow slideInDown"
+                        data-wow-delay="0.1s"
+                    >
+                        <h1 class="mb-3s">Туры</h1>
+                        <p>
+                            Мы предлагаем самые выгодные цены на паломнические
+                            туры в Мекку и Медину
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show p-0 active">
+                    <div class="row g-5 justify-content-center">
+                        <div
+                            class="col-lg-5 col-sm-12 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                class="property-item rounded overflow-hidden bg-white"
+                            >
+                                <div class="block text-center mt-5">UMRAH</div>
+                                <p class="text-center text-black">ПАКЕТ</p>
+                                <div class="position-relative overflow-hidden">
+                                    <img
+                                        class="card-img"
+                                        src="img/places/1.jpeg"
+                                        alt=""
+                                    />
+                                    <div
+                                        0v
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                                    >
+                                        Скидка 10%
+                                    </div>
+                                    <h5
+                                        class="bg-white rounded-top text-dark position-absolute start-0 bottom-0 mx-4 *-+ -+ - pt-1 px-3 display-5 status"
+                                    >
+                                        $989
+                                    </h5>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex">
+                                            <h5 class="display-4">20</h5>
+                                            <div class="mx-2">
+                                                <p class="m-0">сентября</p>
+                                                <p>2023</p>
+                                            </div>
+                                        </div>
+                                        <div class="date"></div>
+                                        <div class="d-flex">
+                                            <h5 class="display-4">30</h5>
+                                            <div class="mx-2">
+                                                <p class="m-0">сентября</p>
+                                                <p>2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="d-flex justify-content-between mb-3"
+                                    >
+                                        <h5 class="mb-0">Emar Royal</h5>
+                                        <div class="ps-2">
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                        </div>
+                                    </div>
+
+                                    <p>
+                                        <i
+                                            class="fa fa-map-marker-alt text-primary me-2"
+                                        ></i
+                                        >Саудовская Аравия, Медина
+                                    </p>
+                                    <p>
+                                        <i
+                                            class="fa fa-plane text-primary me-2"
+                                        ></i>
+                                        Almaty
+                                        <span class="text-primary">></span>
+                                        Jeddah
+                                        <span class="text-primary">></span>
+                                        Almaty
+                                    </p>
+                                    <p>
+                                        <i
+                                            class="fa fa-bus text-primary me-2"
+                                        ></i
+                                        >Трансфер
+                                    </p>
+                                    <p>
+                                        <i
+                                            class="fa fa-sim-card text-primary me-2"
+                                        ></i>
+                                        Сим карта
+                                    </p>
+
+                                    <div
+                                        class="flex justify-content-center my-3"
+                                    >
+                                        <a
+                                            class="btn btn-sm btn-dark rounded py-3 d-block"
+                                            href="https://wa.me/77026600822?text=Здравствуйте,%20я%20хочу%20забронировать%20в%20Санаторий%20-%20Комфорт%20KZ."
+                                            >Бронировать</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small
+                                        class="flex-fill text-center border-end py-2"
+                                        ><i
+                                            class="fa fa-calendar text-primary fa-lg me-2"
+                                        ></i
+                                        >10 дней</small
+                                    >
+                                    <small
+                                        class="flex-fill text-center border-end py-2"
+                                        ><i
+                                            class="fa fa-utensils fa-lg text-primary me-2"
+                                        ></i
+                                        >Завтрак и Ужин</small
+                                    >
+                                    <small class="flex-fill text-center py-2"
+                                        ><i
+                                            class="fa fa-mosque text-primary me-2"
+                                        >
+                                            -></i
+                                        >2 км</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2 -->
+                        <div
+                            class="col-lg-5 col-sm-12 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                class="property-item rounded overflow-hidden bg-white"
+                            >
+                                <div class="block text-center mt-5">HAJJ</div>
+                                <p class="text-center text-black">ПАКЕТ</p>
+                                <div class="position-relative overflow-hidden">
+                                    <img
+                                        class="card-img"
+                                        src="img/places/3.jpeg"
+                                        alt=""
+                                    />
+                                    <div
+                                        0v
+                                        class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"
+                                    >
+                                        Скидка 5%
+                                    </div>
+                                    <h5
+                                        class="bg-white rounded-top text-dark position-absolute start-0 bottom-0 mx-4 *-+ -+ - pt-1 px-3 display-5 status"
+                                    >
+                                        $1450
+                                    </h5>
+                                </div>
+                                <div class="p-4 pb-0">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex">
+                                            <h5 class="display-4">20</h5>
+                                            <div class="mx-2">
+                                                <p class="m-0">сентября</p>
+                                                <p>2023</p>
+                                            </div>
+                                        </div>
+                                        <div class="date"></div>
+                                        <div class="d-flex">
+                                            <h5 class="display-4">30</h5>
+                                            <div class="mx-2">
+                                                <p class="m-0">сентября</p>
+                                                <p>2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="d-flex justify-content-between mb-3"
+                                    >
+                                        <h5 class="mb-0">Emar Royal</h5>
+                                        <div class="ps-2">
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                            <small
+                                                class="fa fa-star text-primary"
+                                            ></small>
+                                        </div>
+                                    </div>
+
+                                    <p>
+                                        <i
+                                            class="fa fa-map-marker-alt text-primary me-2"
+                                        ></i
+                                        >Саудовская Аравия, Медина
+                                    </p>
+                                    <p>
+                                        <i
+                                            class="fa fa-plane text-primary me-2"
+                                        ></i>
+                                        Almaty
+                                        <span class="text-primary">></span>
+                                        Jeddah
+                                        <span class="text-primary">></span>
+                                        Almaty
+                                    </p>
+                                    <p>
+                                        <i
+                                            class="fa fa-bus text-primary me-2"
+                                        ></i
+                                        >Трансфер
+                                    </p>
+                                    <p>
+                                        <i
+                                            class="fa fa-sim-card text-primary me-2"
+                                        ></i>
+                                        Сим карта
+                                    </p>
+
+                                    <div
+                                        class="flex justify-content-center my-3"
+                                    >
+                                        <a
+                                            class="btn btn-sm btn-dark rounded py-3 d-block"
+                                            href="https://wa.me/77026600822?text=Здравствуйте,%20я%20хочу%20забронировать%20в%20Санаторий%20-%20Комфорт%20KZ."
+                                            >Бронировать</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small
+                                        class="flex-fill text-center border-end py-2"
+                                        ><i
+                                            class="fa fa-calendar text-primary fa-lg me-2"
+                                        ></i
+                                        >10 дней</small
+                                    >
+                                    <small
+                                        class="flex-fill text-center border-end py-2"
+                                        ><i
+                                            class="fa fa-utensils fa-lg text-primary me-2"
+                                        ></i
+                                        >Завтрак и Ужин</small
+                                    >
+                                    <small class="flex-fill text-center py-2"
+                                        ><i
+                                            class="fa fa-mosque text-primary me-2"
+                                        >
+                                            -></i
+                                        >2 км</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product List End -->
+
+<!-- Facts Start -->
+<div class="container-fluid my-5 p-0">
+    <div class="row g-0">
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="position-relative">
+                <img
+                    class="img-fluid w-100"
+                    src="img/step/step-1.jpeg"
+                    alt=""
+                />
+                <div class="facts-overlay">
+                    <h1 class="display-1">01</h1>
+                    <h4 class="text-white mb-3">Подбор</h4>
+                    <p class="text-white">
+                        Подбор тура по вашим пожеланиям и возможностям. Скидки и
+                        акции в туре от нашей компании.
+                    </p>
+                    <a class="text-white small" href=""
+                        >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+            <div class="position-relative">
+                <img
+                    class="img-fluid w-100"
+                    src="img/step/step-2.jpeg"
+                    alt=""
+                />
+                <div class="facts-overlay">
+                    <h1 class="display-1">02</h1>
+                    <h4 class="text-white mb-3">Бронирование</h4>
+                    <p class="text-white">
+                        Получение визы и бронирование тура. Подготовка к
+                        поездке. Полный пакет документов.
+                    </p>
+                    <a class="text-white small" href=""
+                        >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+            <div class="position-relative">
+                <img
+                    class="img-fluid w-100"
+                    src="img/step/step-3.jpeg"
+                    alt=""
+                />
+                <div class="facts-overlay">
+                    <h1 class="display-1">03</h1>
+                    <h4 class="text-white mb-3">Организация</h4>
+                    <p class="text-white">
+                        Организация поездки. Полное сопровождение во время
+                        паломничества. Помощь во время паломничества.
+                    </p>
+                    <a class="text-white small" href=""
+                        >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+            <div class="position-relative">
+                <img
+                    class="img-fluid w-100"
+                    src="img/step/step-4.jpeg"
+                    alt=""
+                />
+                <div class="facts-overlay">
+                    <h1 class="display-1">04</h1>
+                    <h4 class="text-white mb-3">Хадж/Умра</h4>
+                    <p class="text-white">
+                        Совершение паломничества. Перевозка в Мекку и Медину.
+                    </p>
+                    <a class="text-white small" href=""
+                        >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Facts End -->
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-10">
+                                <h5
+                                    class="text-light text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Welcome to Apex
+                                </h5>
+                                <h1
+                                    class="display-2 text-light mb-3 animated slideInDown"
+                                >
+                                    A Construction & Renovation Company
+                                </h1>
+                                <ol class="breadcrumb mb-4 pb-2">
+                                    <li class="breadcrumb-item fs-5 text-light">
+                                        Commercial
+                                    </li>
+                                    <li class="breadcrumb-item fs-5 text-light">
+                                        Residential
+                                    </li>
+                                    <li class="breadcrumb-item fs-5 text-light">
+                                        Industrial
+                                    </li>
+                                </ol>
+                                <a href="" class="btn btn-primary py-3 px-5"
+                                    >More Details</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-10">
+                                <h5
+                                    class="text-light text-uppercase mb-3 animated slideInDown"
+                                >
+                                    Welcome to Apex
+                                </h5>
+                                <h1
+                                    class="display-2 text-light mb-3 animated slideInDown"
+                                >
+                                    Professional Tiling & Painting Services
+                                </h1>
+                                <ol class="breadcrumb mb-4 pb-2">
+                                    <li class="breadcrumb-item fs-5 text-light">
+                                        Commercial
+                                    </li>
+                                    <li class="breadcrumb-item fs-5 text-light">
+                                        Residential
+                                    </li>
+                                    <li class="breadcrumb-item fs-5 text-light">
+                                        Industrial
+                                    </li>
+                                </ol>
+                                <a href="" class="btn btn-primary py-3 px-5"
+                                    >More Details</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#header-carousel"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#header-carousel"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- Carousel End -->
+
+<!-- Features Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="border-start border-5 border-primary ps-4 mb-5">
+                    <h6 class="text-body text-uppercase mb-2">
+                        Why Choose Us!
+                    </h6>
+                    <h1 class="display-6 mb-0">
+                        Our Specialization And Company Features
+                    </h1>
+                </div>
+                <p class="mb-5">
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
+                    sit, sed stet lorem sit clita duo justo magna dolore erat
+                    amet
+                </p>
+                <div class="row gy-5 gx-4">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex align-items-center mb-3">
+                            <i
+                                class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                            ></i>
+                            <h6 class="mb-0">
+                                Large number of services provided
+                            </h6>
+                        </div>
+                        <span
+                            >Magna sea eos sit dolor, ipsum amet ipsum lorem
+                            diam</span
+                        >
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                        <div class="d-flex align-items-center mb-3">
+                            <i
+                                class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                            ></i>
+                            <h6 class="mb-0">
+                                25+ years of professional experience
+                            </h6>
+                        </div>
+                        <span
+                            >Magna sea eos sit dolor, ipsum amet ipsum lorem
+                            diam</span
+                        >
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="d-flex align-items-center mb-3">
+                            <i
+                                class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                            ></i>
+                            <h6 class="mb-0">
+                                A large number of grateful customers
+                            </h6>
+                        </div>
+                        <span
+                            >Magna sea eos sit dolor, ipsum amet ipsum lorem
+                            diam</span
+                        >
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                        <div class="d-flex align-items-center mb-3">
+                            <i
+                                class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"
+                            ></i>
+                            <h6 class="mb-0">
+                                Always reliable and affordable prices
+                            </h6>
+                        </div>
+                        <span
+                            >Magna sea eos sit dolor, ipsum amet ipsum lorem
+                            diam</span
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div
+                    class="position-relative overflow-hidden ps-5 pt-5 h-100"
+                    style="min-height: 400px"
+                >
+                    <img
+                        class="position-absolute w-100 h-100"
+                        src="img/feature.jpg"
+                        alt=""
+                        style="object-fit: cover"
+                    />
+                    <div
+                        class="position-absolute top-0 start-0 bg-white pe-3 pb-3"
+                        style="width: 200px; height: 200px"
+                    >
+                        <div
+                            class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3"
+                        >
+                            <h1 class="text-white">25</h1>
+                            <h2 class="text-white">Years</h2>
+                            <h5 class="text-white mb-0">Experience</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-end mb-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="border-start border-5 border-primary ps-4">
+                    <h6 class="text-body text-uppercase mb-2">Экскурсия</h6>
+                    <h1 class="display-6 mb-0">
+                        Исторические святые места которые входят в тур
+                    </h1>
+                </div>
+            </div>
+            <div
+                class="col-lg-6 text-lg-end wow fadeInUp"
+                data-wow-delay="0.3s"
+            >
+                <a class="btn btn-primary py-3 px-5" href="">Забронировать</a>
+            </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light overflow-hidden h-100">
+                    <img class="img-fluid" src="img/places/1.jpeg" alt="" />
+                    <div
+                        class="service-text position-relative text-center h-100 p-4"
+                    >
+                        <h5 class="mb-3">Мечеть Куба</h5>
+                        <p>
+                            Первая мечеть в истории Ислама. Была выстроена у
+                            ворот древнего Йасриба. Пророк, Мир ему и
+                            благословение, прожил там четыре дня, основав за это
+                            время мечеть и успев совершить там несколько молитв
+                        </p>
+                        <a class="small" href=""
+                            >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light overflow-hidden h-100">
+                    <img class="img-fluid" src="img/places/2.jpeg" alt="" />
+                    <div
+                        class="service-text position-relative text-center h-100 p-4"
+                    >
+                        <h5 class="mb-3">Гора Ухуд</h5>
+                        <p>
+                            У горы Ухуд состоялась одна из великих битв Пророка
+                            Мухаммада (мир ему и благословение Аллаха) с
+                            курейшитами Мекки
+                        </p>
+                        <a class="small" href=""
+                            >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light overflow-hidden h-100">
+                    <img class="img-fluid" src="img/places/3.jpeg" alt="" />
+                    <div
+                        class="service-text position-relative text-center h-100 p-4"
+                    >
+                        <h5 class="mb-3">Мечеть ан-Набави</h5>
+                        <p>
+                            Вторая по значимости мечеть в Исламе после Запретной
+                            мечети в Мекке. Место приветствия пророку Мухаммаду
+                            (мир ему и благословение)
+                        </p>
+                        <a class="small" href=""
+                            >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light overflow-hidden h-100">
+                    <img class="img-fluid" src="img/places/4.jpeg" alt="" />
+                    <div
+                        class="service-text position-relative text-center h-100 p-4"
+                    >
+                        <h5 class="mb-3">Финиковый сад</h5>
+                        <p>
+                            Финиковый сад – одна из главных и уникальных
+                            природных достопримечательностей Медины. Это
+                            роскошный оазис, обрамленный высокими песчаными
+                            дюнами
+                        </p>
+                        <a class="small" href=""
+                            >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item bg-light overflow-hidden h-100">
+                    <img class="img-fluid" src="img/places/5.jpeg" alt="" />
+                    <div
+                        class="service-text position-relative text-center h-100 p-4"
+                    >
+                        <h5 class="mb-3">Гора Арафат</h5>
+                        <p>
+                            Гора Арафат, называемая также Горой Милости,
+                            находится в 20 километрах от Мекки. Арафат — то
+                            место, где, согласно писанию, Адам и Ева встретились
+                            после изгнания из Рая
+                        </p>
+                        <a class="small" href=""
+                            >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item bg-light overflow-hidden h-100">
+                    <img class="img-fluid" src="img/places/6.jpeg" alt="" />
+                    <div
+                        class="service-text position-relative text-center h-100 p-4"
+                    >
+                        <h5 class="mb-3">Долина Мина</h5>
+                        <p>
+                            Именно здесь пророком Ибрахимом были установлены
+                            ритуалы хаджа. В период хаджа долина Мина
+                            превращается в крупнейший в мире палаточный городок
+                        </p>
+                        <a class="small" href=""
+                            >Подробнее<i class="fa fa-arrow-right ms-3"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!-- Appointment Start -->
+<div
+    class="container-fluid appointment my-5 py-5 wow fadeIn"
+    data-wow-delay="0.1s"
+>
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="border-start border-5 border-primary ps-4 mb-5">
+                    <h6 class="text-white text-uppercase mb-2">Заявка</h6>
+                    <h5 class="display-6 text-white mb-0">
+                        Прикоснитесь к мусульманским святыням
+                    </h5>
+                </div>
+                <p class="text-white mb-0">
+                    На протяжении всего паломничества наши квалифицированные
+                    руководители, организаторы и врачи прилагают все усилия,
+                    чтобы паломники, оставив свои мирские проблемы нам, могли
+                    сосредоточиться на поклонении.
+                </p>
+            </div>
+            <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input
+                                    type="text"
+                                    class="form-control bg-dark border-0"
+                                    id="gname"
+                                    placeholder="Gurdian Name"
+                                />
+                                <label for="gname">Имя</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input
+                                    type="text"
+                                    class="form-control bg-dark border-0"
+                                    id="cname"
+                                    placeholder="Child Name"
+                                />
+                                <label for="cname">Телефон</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea
+                                    class="form-control bg-dark border-0"
+                                    placeholder="Leave a message here"
+                                    id="message"
+                                    style="height: 100px"
+                                ></textarea>
+                                <label for="message">Сообщение</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button
+                                class="btn btn-primary w-100 py-3"
+                                type="submit"
+                            >
+                                Отправить
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Appointment End -->
+
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-end mb-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="border-start border-5 border-primary ps-4">
+                    <h6 class="text-body text-uppercase mb-2">Команда</h6>
+                    <h1 class="display-6 mb-0">Образованные специалисты</h1>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="mb-0">
+                    У нас в команде Образованные и опытные специалисты, которые
+                    помогут вам во время паломничества. Мы сделаем все
+                    возможное, чтобы вы остались довольны нашей работой.
+                </p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item position-relative">
+                    <img class="img-fluid" src="img/team-1.jpeg" alt="" />
+                    <div class="team-text bg-white p-4">
+                        <h5>Имя Фамилия</h5>
+                        <span>Мулла</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item position-relative">
+                    <img class="img-fluid" src="img/team-2.jpeg" alt="" />
+                    <div class="team-text bg-white p-4">
+                        <h5>Имя Фамилия</h5>
+                        <span>Гид</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item position-relative">
+                    <img class="img-fluid" src="img/team-1.jpeg" alt="" />
+                    <div class="team-text bg-white p-4">
+                        <h5>Имя Фамилия</h5>
+                        <span>Мулла</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="border-start border-5 border-primary ps-4 mb-5">
+                    <h6 class="text-body text-uppercase mb-2">Testimonial</h6>
+                    <h1 class="display-6 mb-0">What Our Happy Clients Say!</h1>
+                </div>
+                <p class="mb-4">
+                    Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                    Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                    duo justo magna dolore erat amet
+                </p>
+                <div class="row g-4">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-2">
+                            <i
+                                class="fa fa-users fa-2x text-primary flex-shrink-0"
+                            ></i>
+                            <h1 class="ms-3 mb-0">123+</h1>
+                        </div>
+                        <h5 class="mb-0">Happy Clients</h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center mb-2">
+                            <i
+                                class="fa fa-check fa-2x text-primary flex-shrink-0"
+                            ></i>
+                            <h1 class="ms-3 mb-0">123+</h1>
+                        </div>
+                        <h5 class="mb-0">Projects Done</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item">
+                        <img
+                            class="img-fluid mb-4"
+                            src="img/testimonial-1.jpg"
+                            alt=""
+                        />
+                        <p class="fs-5">
+                            Dolores sed duo clita tempor justo dolor et stet
+                            lorem kasd labore dolore lorem ipsum. At lorem lorem
+                            magna ut et, nonumy et labore et tempor diam tempor
+                            erat.
+                        </p>
+                        <div
+                            class="bg-primary mb-3"
+                            style="width: 60px; height: 5px"
+                        ></div>
+                        <h5>Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <img
+                            class="img-fluid mb-4"
+                            src="img/testimonial-2.jpg"
+                            alt=""
+                        />
+                        <p class="fs-5">
+                            Dolores sed duo clita tempor justo dolor et stet
+                            lorem kasd labore dolore lorem ipsum. At lorem lorem
+                            magna ut et, nonumy et labore et tempor diam tempor
+                            erat.
+                        </p>
+                        <div
+                            class="bg-primary mb-3"
+                            style="width: 60px; height: 5px"
+                        ></div>
+                        <h5>Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<!-- Footer Start -->
+<div
+    class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+    data-wow-delay="0.1s"
+>
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h1 class="text-white mb-4">
+                    <i class="fa fa-building text-primary me-3"></i>APEX
+                </h1>
+                <p>
+                    Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                    Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                </p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-outline-primary me-1" href=""
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-primary me-1" href=""
+                        ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-primary me-1" href=""
+                        ><i class="fab fa-youtube"></i
+                    ></a>
+                    <a class="btn btn-square btn-outline-primary me-0" href=""
+                        ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Address</h4>
+                <p>
+                    <i class="fa fa-map-marker-alt me-3"></i>123 Street, New
+                    York, USA
+                </p>
+                <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">Our Services</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">Support</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px">
+                    <input
+                        class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                        type="text"
+                        placeholder="Your email"
+                    />
+                    <button
+                        type="button"
+                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                    >
+                        SignUp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By
+                    <a href="https://htmlcodex.com">HTML Codex</a>
+                    <br />Distributed By:
+                    <a href="https://themewagon.com" target="_blank"
+                        >ThemeWagon</a
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+    ><i class="bi bi-arrow-up"></i
+></a>

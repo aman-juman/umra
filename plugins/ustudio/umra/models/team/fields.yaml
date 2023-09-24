@@ -1,0 +1,18 @@
+fields:
+    name:
+        label: Имя
+        span: full
+        type: text
+    profession:
+        label: Должность
+        span: full
+        type: text
+    poster:
+        label: Фото
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

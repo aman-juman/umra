@@ -1,0 +1,39 @@
+fields:
+    title:
+        label: Заголовок
+        span: auto
+        type: text
+    slug:
+        label: slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    poster:
+        label: Постер
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    description:
+        label: Описание
+        span: full
+        type: text
+    text:
+        label: Содержание
+        size: large
+        span: full
+        type: richeditor
+    gallery:
+        label: Галерея
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

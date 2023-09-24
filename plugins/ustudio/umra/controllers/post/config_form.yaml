@@ -1,0 +1,10 @@
+name: Post
+form: $/ustudio/umra/models/post/fields.yaml
+modelClass: Ustudio\Umra\Models\Post
+defaultRedirect: ustudio/umra/post
+create:
+    redirect: 'ustudio/umra/post/update/:id'
+    redirectClose: ustudio/umra/post
+update:
+    redirect: ustudio/umra/post
+    redirectClose: ustudio/umra/post

@@ -1,0 +1,11 @@
+name: Carousel1
+modelClass: Ustudio\Umra\Models\Carousel1
+form: $/ustudio/umra/models/carousel1/fields.yaml
+defaultRedirect: ustudio/umra/carousel1
+create:
+    redirect: 'ustudio/umra/carousel1/update/:id'
+    redirectClose: ustudio/umra/carousel1
+update:
+    redirect: ustudio/umra/carousel1
+    redirectClose: ustudio/umra/carousel1
+preview: {  }

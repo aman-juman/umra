@@ -1,0 +1,12 @@
+fields:
+    gallery:
+        label: Изображении
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        context:
+            - update
+        type: fileupload

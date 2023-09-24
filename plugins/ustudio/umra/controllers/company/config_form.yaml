@@ -1,0 +1,11 @@
+name: Company
+modelClass: Ustudio\Umra\Models\Company
+form: $/ustudio/umra/models/company/fields.yaml
+defaultRedirect: ustudio/umra/company
+create:
+    redirect: 'ustudio/umra/company/update/:id'
+    redirectClose: ustudio/umra/company
+update:
+    redirect: ustudio/umra/company
+    redirectClose: ustudio/umra/company
+preview: {  }

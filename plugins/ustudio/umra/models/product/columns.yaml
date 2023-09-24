@@ -1,0 +1,36 @@
+columns:
+    title:
+        label: Название
+        type: text
+        searchable: true
+        sortable: true
+    start:
+        label: Начало
+        type: date
+        searchable: true
+        sortable: true
+    end:
+        label: Окончание
+        type: date
+        searchable: true
+        sortable: true
+    hotel:
+        label: Отель
+        type: text
+        searchable: true
+        sortable: true
+    city:
+        label: Город
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: Цена
+        type: text
+        searchable: true
+        sortable: true
+    discount:
+        label: Скидка
+        type: text
+        searchable: true
+        sortable: true
